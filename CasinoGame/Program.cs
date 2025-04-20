@@ -13,7 +13,8 @@ while (true)
     
     List<IGame> games = new List<IGame>
     {
-        new SlotMachine(player)
+        new SlotMachine(player),
+        new Blackjack(player)
         // Här kan du lägga till fler spel!
     };
 
@@ -58,7 +59,7 @@ while (true)
             {
                 break; 
             }
-            if (gameInput == '\r')
+            if (key.Key == ConsoleKey.Enter)
             {
                 selectedGame.Play();
                 Console.WriteLine("\nPress any key to continue...");
