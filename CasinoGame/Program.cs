@@ -15,7 +15,6 @@ while (true)
     {
         new SlotMachine(player),
         new Blackjack(player)
-        // Här kan du lägga till fler spel!
     };
 
    
