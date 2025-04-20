@@ -78,7 +78,7 @@ namespace CasinoGame
             if (dealerScore > 21 || playerScore > dealerScore)
             {
                 Console.WriteLine("✅ You win! +20 kr");
-                _player.AddBalance(30); 
+                _player.AddBalance(20); 
             }
             else if (playerScore == dealerScore)
             {
