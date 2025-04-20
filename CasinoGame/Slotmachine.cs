@@ -51,7 +51,7 @@ public class SlotMachine : IGame
             Console.WriteLine("\n🎉 Jackpot!");
             _player.AddBalance(100);
         }
-        else if (final1 == final2 || final2 == final3 || final1 == final3)
+        else if (final1 == final2 || final2 == final3)
         {
             Console.WriteLine("\"✅ You won!");
             _player.AddBalance(20);
