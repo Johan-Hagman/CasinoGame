@@ -81,5 +81,4 @@ This project is free to use for educational and hobby purposes.
 
 ---
 
-> Built with ❤️ and 🎲 by [Johan Hagman]
 ```
