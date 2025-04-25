@@ -53,8 +53,8 @@ public class SlotMachine : IGame
         }
         else if (final1 == final2 || final2 == final3)
         {
-            Console.WriteLine("\"✅ You won!");
-            _player.AddBalance(20);
+            Console.WriteLine("\n✅ You won!");
+            _player.AddBalance(30);
         }
         else
         {
